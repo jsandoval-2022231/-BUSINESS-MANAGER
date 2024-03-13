@@ -1,0 +1,49 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "USER BM",
+    "dateExported": "2024-03-13T05:41:19.495Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a250cacb-96ce-41e3-99ac-b0d90e21a7c8",
+            "colId": "65b31b29-dccc-411e-aede-7d0d8ace997d",
+            "containerId": "",
+            "name": "create user",
+            "url": "http://localhost:8080/business/v1/users",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-13T02:34:12.395Z",
+            "modified": "2024-03-13T05:21:09.905Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"test2\",\n  \"email\": \"test2@gmail.com\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "959fde47-4f79-4b62-9149-b609869c99c4",
+            "colId": "65b31b29-dccc-411e-aede-7d0d8ace997d",
+            "containerId": "",
+            "name": "getUser",
+            "url": "http://localhost:8080/business/v1/users",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-13T02:38:22.521Z",
+            "modified": "2024-03-13T02:41:03.236Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxMTE4ZjdkMzQ5MWE5YTVmYjYzMjQiLCJpYXQiOjE3MTAyOTc2NTIsImV4cCI6MTcxMDMwMTI1Mn0.wrXq9-MzO_L-xmJuO3Qy1eup8_Jf4mVyVr9CLJDG4mU"
+                }
+            ],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        }
+    ]
+}

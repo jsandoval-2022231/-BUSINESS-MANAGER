@@ -1,0 +1,173 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ADD COMPANY",
+    "dateExported": "2024-03-13T05:40:53.865Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "97163791-e8bc-48d1-a01b-75d98e74f1fe",
+            "colId": "18f7be96-000a-4c47-80c4-66b32ee12e24",
+            "containerId": "",
+            "name": "ADD COMPANY",
+            "url": "http://localhost:8080/business/v1/companies",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-13T03:47:32.569Z",
+            "modified": "2024-03-13T05:21:46.979Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxMTE4ZjdkMzQ5MWE5YTVmYjYzMjQiLCJpYXQiOjE3MTAzMDcyODQsImV4cCI6MTcxMDMxMDg4NH0.9zDRD_FRUQI09mUsCDWbvT-iDRGKEsXyagKABB-g-4c"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Btest4\",\n  \"impactLevel\": \"Low\",\n  \"yearsOfExperience\": 5, \n  \"category\": \"Food\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "c29f97d8-6596-489e-8e8f-0817c1ea5838",
+            "colId": "18f7be96-000a-4c47-80c4-66b32ee12e24",
+            "containerId": "",
+            "name": "GetCompany",
+            "url": "http://localhost:8080/business/v1/companies",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-13T03:55:16.527Z",
+            "modified": "2024-03-13T05:22:03.252Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxMTE4ZjdkMzQ5MWE5YTVmYjYzMjQiLCJpYXQiOjE3MTAzMDcyODQsImV4cCI6MTcxMDMxMDg4NH0.9zDRD_FRUQI09mUsCDWbvT-iDRGKEsXyagKABB-g-4c"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c1bd6627-c9fa-48c8-bad9-259e691f9acd",
+            "colId": "18f7be96-000a-4c47-80c4-66b32ee12e24",
+            "containerId": "",
+            "name": "GetCompanyByYears",
+            "url": "http://localhost:8080/business/v1/companies/years/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-13T03:55:47.211Z",
+            "modified": "2024-03-13T05:22:18.924Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxMTE4ZjdkMzQ5MWE5YTVmYjYzMjQiLCJpYXQiOjE3MTAzMDcyODQsImV4cCI6MTcxMDMxMDg4NH0.9zDRD_FRUQI09mUsCDWbvT-iDRGKEsXyagKABB-g-4c"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c1ade349-2ac8-44e5-89be-3343c8cf339b",
+            "colId": "18f7be96-000a-4c47-80c4-66b32ee12e24",
+            "containerId": "",
+            "name": "GetCompanyByAZ",
+            "url": "http://localhost:8080/business/v1/companies/az",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-13T03:56:28.520Z",
+            "modified": "2024-03-13T05:22:31.313Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxMTE4ZjdkMzQ5MWE5YTVmYjYzMjQiLCJpYXQiOjE3MTAzMDcyODQsImV4cCI6MTcxMDMxMDg4NH0.9zDRD_FRUQI09mUsCDWbvT-iDRGKEsXyagKABB-g-4c"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "380c45f9-6c1c-42fb-82ef-4f0c2efdc5d5",
+            "colId": "18f7be96-000a-4c47-80c4-66b32ee12e24",
+            "containerId": "",
+            "name": "GetCompanyByZA",
+            "url": "http://localhost:8080/business/v1/companies/za",
+            "method": "GET",
+            "sortNum": 45000,
+            "created": "2024-03-13T04:06:12.996Z",
+            "modified": "2024-03-13T05:23:05.900Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxMTE4ZjdkMzQ5MWE5YTVmYjYzMjQiLCJpYXQiOjE3MTAzMDcyODQsImV4cCI6MTcxMDMxMDg4NH0.9zDRD_FRUQI09mUsCDWbvT-iDRGKEsXyagKABB-g-4c"
+                }
+            ],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "0cdfc292-a470-4e0f-9e12-304d19e97757",
+            "colId": "18f7be96-000a-4c47-80c4-66b32ee12e24",
+            "containerId": "",
+            "name": "Update Company",
+            "url": "http://localhost:8080/business/v1/companies/65f1233a38a5940833971397",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-03-13T03:59:21.290Z",
+            "modified": "2024-03-13T05:23:33.592Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxMTE4ZjdkMzQ5MWE5YTVmYjYzMjQiLCJpYXQiOjE3MTAzMDcyODQsImV4cCI6MTcxMDMxMDg4NH0.9zDRD_FRUQI09mUsCDWbvT-iDRGKEsXyagKABB-g-4c"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"test1changed2\",\n  \"impactLevel\": \"High\",\n  \"yearsOfExperience\": 15, \n  \"category\": \"Fresh-Food\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "031d514d-59ce-4266-87a2-8628738b3105",
+            "colId": "18f7be96-000a-4c47-80c4-66b32ee12e24",
+            "containerId": "",
+            "name": "GetCompanyByCategory",
+            "url": "http://localhost:8080/business/v1/companies/category/Tech",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-03-13T04:01:56.857Z",
+            "modified": "2024-03-13T05:25:38.798Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxMTE4ZjdkMzQ5MWE5YTVmYjYzMjQiLCJpYXQiOjE3MTAzMDc1MTYsImV4cCI6MTcxMDMxMTExNn0.o8dooiDIvfRRi-ck6ri0llWaITttp4SrTOWW3NjgEfo"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "15553ea3-efde-4b7d-8135-93e27ea5ddd0",
+            "colId": "18f7be96-000a-4c47-80c4-66b32ee12e24",
+            "containerId": "",
+            "name": "GenExcel",
+            "url": "http://localhost:8080/business/v1/companies/excel",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-03-13T04:18:41.518Z",
+            "modified": "2024-03-13T05:25:48.648Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxMTE4ZjdkMzQ5MWE5YTVmYjYzMjQiLCJpYXQiOjE3MTAzMDc1MTYsImV4cCI6MTcxMDMxMTExNn0.o8dooiDIvfRRi-ck6ri0llWaITttp4SrTOWW3NjgEfo"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

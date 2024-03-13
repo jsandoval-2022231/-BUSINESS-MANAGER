@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "AUTHLOGIN BM",
+    "dateExported": "2024-03-13T05:41:24.990Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "56aa3a90-ca90-40c6-a317-ee81eab9c425",
+            "colId": "6afb28ef-e305-44ea-99cc-02542823a12b",
+            "containerId": "",
+            "name": "LOGIN",
+            "url": "http://localhost:8080/business/v1/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-13T02:40:05.010Z",
+            "modified": "2024-03-13T02:40:50.791Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"test1@gmail.com\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
