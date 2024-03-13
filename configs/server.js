@@ -5,8 +5,9 @@ import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import { dbConnection } from './mongo.js';
-//import userRoutes from '../src/user/user.routes.js';
-//import authRoutes from '../src/auth/auth.routes.js';
+import userRoutes from '../src/user/user.routes.js';
+import authRoutes from '../src/auth/auth.routes.js';
+import companyRoutes from '../src/company/company.routes.js';
 
 class Server {
     constructor() {
@@ -14,10 +15,11 @@ class Server {
         this.port = process.env.PORT;
         this.userPath = '/business/v1/users';
         this.authPath = '/business/v1/auth';
+        this.companyPath = '/business/v1/companies';
 
         this.middlewares();
         this.connectDB();
-        //this.routes();
+        this.routes();
     }
 
     middlewares(){
@@ -32,8 +34,9 @@ class Server {
     }
 
     routes(){
-        //this.app.use(this.userPath, userRoutes);
-        //this.app.use(this.authPath, authRoutes);
+        this.app.use(this.userPath, userRoutes);
+        this.app.use(this.authPath, authRoutes);
+        this.app.use(this.companyPath, companyRoutes);
     }
 
     listen(){
