@@ -15,7 +15,7 @@ router.get('/years/:years', [validateJWT, validInputs], getFilterByYears);
 router.get('/az', [validateJWT, validInputs],getFilterByAZ);
 router.get('/za', [validateJWT, validInputs], getFilterByZA);
 router.get('/category/:category', [validateJWT, validInputs], getFilterByCategory);
-router.get('/excel', generateExcelReport);
+router.get('/excel', [validateJWT, validInputs], generateExcelReport);
 
 router.post('/', 
     [ 
